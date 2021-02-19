@@ -10,6 +10,10 @@ import org.json.JSONArray;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * initialize限定输入和输出的类型，具体怎么做在process中
+ */
+
 public class ExplodeJSONArray extends GenericUDTF {
     @Override
     public StructObjectInspector initialize(ObjectInspector[] argOIs) throws UDFArgumentException {

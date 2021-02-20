@@ -48,7 +48,6 @@ public class ExplodeJSONArray extends GenericUDTF {
 
         // 3 循环一次，取出数组中的一个json，并写出
         for (int i = 0; i < actions.length(); i++) {
-
             String[] result = new String[1];
             result[0] = actions.getString(i);
             forward(result);

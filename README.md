@@ -29,8 +29,6 @@ next_day：日期的下一个周几是哪一天
 date_format：按照指定的格式对日期进行格式化
 get_json_object：获取json对象中的属性值
 
-
-
 常用取整函数
 round： 四舍五入
 ceil：  向上取整

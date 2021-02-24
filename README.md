@@ -1,6 +1,4 @@
 # Hive
-Hive 实现脱敏以及ETL 过程（开启kerberos）
-https://blog.csdn.net/u013850277/article/details/77345882
 ## 常用函数
 [官网](https://cwiki.apache.org/confluence/display/Hive/LanguageManual+UDF)
 
@@ -84,3 +82,6 @@ select lpad('hi',6,'*');
 select rpad('hi',6,'@');
 SELECT regexp_replace('100-200', '(\\d+)', 'num');
 select sort_array(split('z-w-d-a','-'));
+
+## 脱敏
+[Hive 实现脱敏以及ETL 过程（开启kerberos）](https://blog.csdn.net/u013850277/article/details/77345882)

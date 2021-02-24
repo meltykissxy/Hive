@@ -3,6 +3,8 @@ Hive 实现脱敏以及ETL 过程（开启kerberos）
 https://blog.csdn.net/u013850277/article/details/77345882
 ## 常用函数
 [官网](https://cwiki.apache.org/confluence/display/Hive/LanguageManual+UDF)
+
+
 常用日期函数
 current_date：当前日期
 current_timestamp：当前的日期加时间

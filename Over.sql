@@ -38,7 +38,7 @@ select name,
        orderdate,
        cost,
        lag(orderdate,1,'1900-01-01') over(partition by name order by orderdate ) as prev_buy
-from business;
+from business;                                 
 -- 查询前20%时间的订单信息
 select
     *
